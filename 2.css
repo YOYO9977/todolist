@@ -1,0 +1,51 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white; 
+    padding: 10px; 
+}
+
+nav ul {
+    list-style-type: none; 
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+h1{
+    text-align: center;
+}
+
+.info-boxes {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.info-boxes .box1, .info-boxes .box2 {
+    flex: 1;
+    padding: 20px;
+    background-color: #e9e9e9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
